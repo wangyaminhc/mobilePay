@@ -32,9 +32,9 @@ android {
 
 }
 dependencies {
-    compileOnly fileTree(dir: 'libs', include: ['*.jar'])
-    compileOnly 'com.android.support:support-v4:26+'
-    compileOnly 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:support-v4:26+'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
 }
 
 afterEvaluate {
@@ -48,7 +48,7 @@ afterEvaluate {
                 //建议和github仓库名称对应，否则对jitpack无效
                 artifactId = 'mobilePay'
                 //建议和release的tag相同，否则对jitpack无效
-                version = '1.0.2'
+                version = '1.0.3'
             }
         }
     }
