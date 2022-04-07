@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mobile_light_blue">#5CACEE</color>
+    <color name="mobile_white">#FFFFFF</color>
+    
+    <color name="mobile_btn">#1a65ba</color>
+
+    <!-- 常用颜色 -->
+	<color name="mobile_black">#000000</color>
+	<color name="mobile_blue">@color/shiji_blue</color>
+	<color name="mobile_yh">#D3D3DA</color>
+	<color name="mobile_test">#FFB700</color>
+    <color name="shiji_blue">#005173</color>
+	
+	<color name="mobile_result_view">#b0000000</color>
+    <color name="mobile_viewfinder_mask">#60000000</color>
+    <color name="mobile_possible_result_points">#c0ffff00</color>
+    
+    <color name="mobile_used">#38ADFF</color>
+    <color name="mobile_noused">#7D7D7D</color>
+</resources>

@@ -1,0 +1,96 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => cashier_drivers_lib\src\main\AndroidManifest.xml
+* assets\ => cashier_drivers_lib\src\main\assets\
+* libs\8583package.jar => cashier_drivers_lib\libs\8583package.jar
+* libs\aidlSDK.jar => cashier_drivers_lib\libs\aidlSDK.jar
+* libs\armeabi\libemvjni.so => cashier_drivers_lib\src\main\jniLibs\armeabi\libemvjni.so
+* libs\armeabi\libeptand_jni.so => cashier_drivers_lib\src\main\jniLibs\armeabi\libeptand_jni.so
+* libs\armeabi\libintelligentLib.so => cashier_drivers_lib\src\main\jniLibs\armeabi\libintelligentLib.so
+* libs\armeabi\libjniICServer.so => cashier_drivers_lib\src\main\jniLibs\armeabi\libjniICServer.so
+* libs\armeabi\libndkapi.so => cashier_drivers_lib\src\main\jniLibs\armeabi\libndkapi.so
+* libs\armeabi\libndkapism.so => cashier_drivers_lib\src\main\jniLibs\armeabi\libndkapism.so
+* libs\commons-lang-2.4.jar => cashier_drivers_lib\libs\commons-lang-2.4.jar
+* libs\commons-net-3.3.jar => cashier_drivers_lib\libs\commons-net-3.3.jar
+* libs\core-2.3.0.jar => cashier_drivers_lib\libs\core-2.3.0.jar
+* libs\ddiapi.jar => cashier_drivers_lib\libs\ddiapi.jar
+* libs\eptapilibrary-2.0.2d.jar => cashier_drivers_lib\libs\eptapilibrary-2.0.2d.jar
+* libs\fastjson-1.2.2.jar => cashier_drivers_lib\libs\fastjson-1.2.2.jar
+* libs\iccard.jar => cashier_drivers_lib\libs\iccard.jar
+* libs\industryic.jar => cashier_drivers_lib\libs\industryic.jar
+* libs\njabc.jar => cashier_drivers_lib\libs\njabc.jar
+* libs\pinpad.jar => cashier_drivers_lib\libs\pinpad.jar
+* libs\ScanDecoder_v1.2.1.0108.jar => cashier_drivers_lib\libs\ScanDecoder_v1.2.1.0108.jar
+* libs\sdkutils-3.3.0-SNAPSHOT.jar => cashier_drivers_lib\libs\sdkutils-3.3.0-SNAPSHOT.jar
+* libs\simplecaptcha-1.0.jar => cashier_drivers_lib\libs\simplecaptcha-1.0.jar
+* libs\struts2-scope-plugin-1.2.6.jar => cashier_drivers_lib\libs\struts2-scope-plugin-1.2.6.jar
+* lint.xml => cashier_drivers_lib\lint.xml
+* res\ => cashier_drivers_lib\src\main\res\
+* src\ => cashier_drivers_lib\src\main\java\
+* src\com\sssoft\drivers\pos\aidl\AllCard.aidl => cashier_drivers_lib\src\main\aidl\com\sssoft\drivers\pos\aidl\AllCard.aidl
+* src\com\sssoft\drivers\pos\aidl\AllCardListener.aidl => cashier_drivers_lib\src\main\aidl\com\sssoft\drivers\pos\aidl\AllCardListener.aidl
+* src\com\sssoft\drivers\pos\aidl\Card.aidl => cashier_drivers_lib\src\main\aidl\com\sssoft\drivers\pos\aidl\Card.aidl
+* src\com\sssoft\drivers\pos\aidl\CardListener.aidl => cashier_drivers_lib\src\main\aidl\com\sssoft\drivers\pos\aidl\CardListener.aidl
+* src\com\sssoft\drivers\pos\aidl\InsertCard.aidl => cashier_drivers_lib\src\main\aidl\com\sssoft\drivers\pos\aidl\InsertCard.aidl
+* src\com\sssoft\drivers\pos\aidl\InsertCardListener.aidl => cashier_drivers_lib\src\main\aidl\com\sssoft\drivers\pos\aidl\InsertCardListener.aidl
+* src\com\sssoft\drivers\pos\aidl\Printer.aidl => cashier_drivers_lib\src\main\aidl\com\sssoft\drivers\pos\aidl\Printer.aidl
+* src\com\sssoft\drivers\pos\aidl\PrinterListener.aidl => cashier_drivers_lib\src\main\aidl\com\sssoft\drivers\pos\aidl\PrinterListener.aidl
+* src\com\sssoft\drivers\pos\aidl\Scanner.aidl => cashier_drivers_lib\src\main\aidl\com\sssoft\drivers\pos\aidl\Scanner.aidl
+* src\com\sssoft\drivers\pos\aidl\ScannerListener.aidl => cashier_drivers_lib\src\main\aidl\com\sssoft\drivers\pos\aidl\ScannerListener.aidl
+* src\com\sssoft\drivers\pos\aidl\XposDriverInc.aidl => cashier_drivers_lib\src\main\aidl\com\sssoft\drivers\pos\aidl\XposDriverInc.aidl
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+null
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

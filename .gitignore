@@ -1,0 +1,5 @@
+/.git/
+/.idea/
+/.gradle/
+/app/build/
+/mobile_pay_lib/build/

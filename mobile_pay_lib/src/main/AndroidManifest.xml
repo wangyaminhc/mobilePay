@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sssoft_lib.mobile.activity"
+   >
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/mobile_app_name"
+       >
+
+        <activity
+            android:name=".SaleInfActivity"
+            android:configChanges="locale"
+            android:exported="false"
+            android:label="移动支付消费"
+            android:theme="@style/mobile_CustomAppTheme">
+            <intent-filter>
+                <action android:name="android.sssoft.schemeurl.activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="mobile.uri.activity"
+                    android:pathPrefix="/sale"
+                    android:scheme="mobile" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CannelInfActivity"
+            android:configChanges="locale"
+            android:exported="false"
+            android:label="@string/mobile_title"
+            android:theme="@style/mobile_CustomAppTheme">
+            <intent-filter>
+                <action android:name="android.sssoft.schemeurl.activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="mobile.uri.activity"
+                    android:pathPrefix="/cannel"
+                    android:scheme="mobile" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RefundInfActivity"
+            android:configChanges="locale"
+            android:exported="false"
+            android:label="@string/mobile_title"
+            android:theme="@style/mobile_CustomAppTheme">
+            <intent-filter>
+                <action android:name="android.sssoft.schemeurl.activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="mobile.uri.activity"
+                    android:pathPrefix="/refund"
+                    android:scheme="mobile" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".QueryInfActivity"
+            android:configChanges="locale"
+            android:label="@string/mobile_title"
+            android:theme="@style/mobile_CustomAppTheme">
+            <intent-filter>
+                <action android:name="android.sssoft.schemeurl.activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="mobile.uri.activity"
+                    android:pathPrefix="/query"
+                    android:scheme="mobile" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AuthInfActivity"
+            android:configChanges="locale"
+            android:label="@string/mobile_title"
+            android:theme="@style/mobile_CustomAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="mobile.uri.activity"
+                    android:pathPrefix="/auth"
+                    android:scheme="mobile" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AuthCancelInfActivity"
+            android:configChanges="locale"
+            android:label="@string/mobile_title"
+            android:theme="@style/mobile_CustomAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="mobile.uri.activity"
+                    android:pathPrefix="/preauthrevocation"
+                    android:scheme="mobile" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AuthQueryInfActivity"
+            android:configChanges="locale"
+            android:label="@string/mobile_title"
+            android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="mobile.uri.activity"
+                    android:pathPrefix="/preauthquery"
+                    android:scheme="mobile" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AuthThawInfActivity"
+            android:configChanges="locale"
+            android:label="@string/mobile_title"
+            android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="mobile.uri.activity"
+                    android:pathPrefix="/preauththaw"
+                    android:scheme="mobile" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".BaseActivity"
+            android:label="@string/mobile_title_activity_base"></activity>
+    </application>
+
+</manifest>

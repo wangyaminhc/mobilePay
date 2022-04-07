@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="mobile_app_name">Shiji Mobile Payment</string>
+    <string name="mobile_hello_world">Hello world!</string>
+    <string name="mobile_menu_settings">Settings</string>
+    <string name="mobile_title">Mobile payment</string>
+    <string name="mobile_title6">Merchant Setup</string>
+    <string name="mobile_title3">Communication Address Setup</string>
+    <string name="mobile_title9">Parameter Setup</string>
+    <string name="mobile_point">.</string>
+    <string name="mobile_scan_text">Put two-dimensional code in box</string>
+    <string name="mobile_title12">Security code settings</string>
+    <string name="mobile_chgLag">Change language</string>
+    <string name="mobile_bind">Binding</string>
+    <string name="mobile_oldCode">Please enter original security code</string>
+
+    <string name="mobile_safeCode">Please enter security code</string>
+
+    <string name="mobile_newcode">Please enter new security code</string>
+
+    <string name="mobile_codesub">Please confirm new security code</string>
+    
+    <string name="mobile_codeErr">Security code error</string>
+    <string name="mobile_chgyy">Language switching……</string>
+    <string name="mobile_filter_vcode">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    
+    <string name="mobile_alipay1">Alipay v1.0</string>
+    <string name="mobile_wechat">Wechat</string>
+    <string name="mobile_ips">Ips Bank Card</string>
+    <string name="mobile_dianping">DianPing</string>
+    <string name="mobile_alipay2">Alipay v2.0</string>
+    <string name="mobile_cash">Cash</string>
+    <string name="mobile_bankcard">Bank Card</string>
+    <string name="mobile_yfcard">Prepaid Card</string>
+    
+    <string name="mobile_midEdit">Please enter the merchant number</string>
+    <string name="mobile_tidEdit">Please enter the terminal number</string>
+    <string name="mobile_payMode">Please select payment type</string>
+    <string name="mobile_transet">Trans manage</string>
+    <string name="mobile_systemset">System setup</string>
+    <string name="mobile_clear">Delete</string>
+    <string name="mobile_money">Pay</string>
+    <string name="mobile_sale">Sale</string>
+    <string name="mobile_refund">Refund</string>
+    <string name="mobile_cancel">Cancel</string>
+    <string name="mobile_update">Check for Update</string>
+    <string name="mobile_bindsucc">Binding successful</string>
+    <!-- print -->
+    <string name="mobile_printStr1">Mobile payment printlist</string>
+    <string name="mobile_printStr2">MERCHANT COPY</string>
+    <string name="mobile_printStr3">CARDHOLDER COPY</string>
+    <string name="mobile_printStr4">MerchantID</string>
+    <string name="mobile_printStr5">TerminalID</string>
+    <string name="mobile_printStr6">Cashier ID</string>
+    <string name="mobile_printStr20">Order No</string>
+    <string name="mobile_printStr15">Merchant name</string>
+    <string name="mobile_printStr22">Pre auth</string>
+    <string name="mobile_printStr23">Pre authorized completion</string>
+    <string name="mobile_printStr24">Pre authorization revocation</string>
+    <string name="mobile_printStr25">Pre authorized thawing</string>
+    
+    <string name="mobile_printStr7">Trx type</string>
+    <string name="mobile_printStr19">Trx id</string>
+    <string name="mobile_printStr10">Trx time</string>
+    <string name="mobile_printStr11">Channel ID</string>
+    <string name="mobile_printStr12">Trx amount</string>
+    <string name="mobile_printStr8">Cancel</string>
+    <string name="mobile_printStr9">Original trx no</string>
+    
+    
+    
+    <string name="mobile_printStr13">Remarks</string>
+    <string name="mobile_printStr14">Signature</string>
+    
+    <string name="mobile_printStr16">Payment account</string>
+    <string name="mobile_printStr17">Sale</string>
+    <string name="mobile_printStr18">Refund</string>
+    
+    <string name="mobile_printBtn1">Exit</string>
+    <string name="mobile_printBtn2">Print Customer Copy</string>
+    <string name="mobile_printBtn3">Print failure</string>
+    <string name="mobile_quxiao">Cancel</string>
+    <string name="mobile_goon">Continue</string>
+    <string name="mobile_ok">Confirm</string>
+    <string name="mobile_systitle">System Prompt</string>
+    <string name="mobile_cannelTrans">Are you sure you want to cancel the payment?</string>
+    <!-- BindSafeCodeActivity -->
+    <string name="mobile_BSCAmessage1">Please enter original security code </string>
+
+    <string name="mobile_BSCAmessage2">Original security code length error</string>
+
+    <string name="mobile_BSCAmessage3">Please enter new security code</string>
+
+    <string name="mobile_BSCAmessage4">New security code length error</string>
+
+    <string name="mobile_BSCAmessage5">New security codes do not match</string>
+
+    <string name="mobile_BSCAmessage6">Original security is entered incorrectly</string>
+    <!-- CancelActivity -->
+    <string name="mobile_CAmessage1">Trading, please wait a moment……</string>
+    <string name="mobile_CAmessage2">Device unbound merchant</string>
+    <string name="mobile_CAmessage3">Network anomaly</string>
+    <!-- CaptureActivity -->
+    <string name="mobile_Capture1">Select two-dimensional code image</string>
+    <string name="mobile_Capture2">A mistake in the picture format</string>
+    <!-- QueryInfActivity -->
+    <string name="mobile_QImessage1">Inquiring, please wait a moment……</string>
+    <!-- RedunfInfActivity -->
+    <string name="mobile_RImessage1">Returning the product. Do you want to continue waiting?？</string>
+    <!-- SaleInfActivity -->
+    <string name="mobile_SImessage1">Barcode error</string>
+    <string name="mobile_SImessage2">Print drive loading failed</string>
+    <string name="mobile_SImessage3">User cancelled</string>
+    <string name="mobile_SImessage4">Do you continue to wait for the guest to enter the payment password?</string>
+    <!-- MainActivity -->
+    <string name="mobile_MAmessage1">The business was not opened</string>
+    
+    <string name="mobile_zfbQRCode">Alipay QR Code</string>
+    <string name="mobile_wxQRCode">WeChat QR Code</string>
+    <string name="mobile_queryPay">Query payment results</string>
+    <string name="mobile_merchantTxnNo_empty">The merchant serial number is empty</string>
+    <string name="mobile_merchantTxnNo_length">The merchant serial number length error</string>
+    <string name="mobile_refundTxnNo_empty">The refund serial number is empty</string>
+    <string name="mobile_refundTxnNo_length">The refund serial number length error</string>
+    <string name="mobile_txnAmt_empty">The transaction amount is empty</string>
+    <string name="mobile_txnAmt_formate">The transaction amount format error</string>
+    <string name="mobile_currencyCode_empty">The currency code is empty</string>
+    <string name="mobile_currencyCode_length">The currency code length error</string>
+    <string name="mobile_authNo_empty">The auth code is empty</string>
+    <string name="mobile_authNo_length">The auth code length error</string>
+    <string name="mobile_merchantId_empty">The merchant number is empty</string>
+    <string name="mobile_merchantId_length">The merchant number length error</string>
+    <string name="mobile_terminalId_empty">The terminal number is empty</string>
+    <string name="mobile_terminalId_length">The terminal number length error</string>
+    <string name="mobile_txnReqTime_empty">The request time is empty</string>
+    <string name="mobile_txnReqTime_formate">The request time format error</string>
+    <string name="mobile_channelID_empty">The channel of payment is empty</string>
+    <string name="mobile_channelID_err">The channel of payment error</string>
+    <string name="mobile_opType_empty">Fund operation type is empty</string>
+    <string name="mobile_opType_err">Fund operation type error</string>
+    <string name="mobile_queryType_empty">The query type is empty</string>
+    <string name="mobile_queryType_err">The query type error</string>
+    <string name="mobile_permitDisctAmt_formate">Allow to participate in discount amount format error</string>
+    <string name="mobile_cashierID_length">The cashier length error</string>
+    <string name="mobile_orgMerchantID_length">The original merchant serial number length error</string>
+    <string name="mobile_refundReason_length">the cause of return length error</string>
+    <string name="mobile_txnLongDesc_length">The transaction detail information length error</string>
+    <string name="mobile_txnShortDesc_length">The transaction Brief length error</string>
+    <string name="mobile_tranSucc">Successful trade</string>
+    <string name="mobile_ptSystrace">scan code refund or query</string>
+    <string name="mobile_orgPlatformTxnNo_empty">The original serial trading platform is empty</string>
+    <string name="mobile_orgPlatformTxnNo_length">The original serial trading platform length error</string>
+    <string name="mobile_orgTxnNo_empty">The original merchant serial number is empty</string>
+    <string name="mobile_orgTxnNo_length">The original merchant serial number length error</string>
+    <string name="mobile_addInfo_length">The additional print information length error</string>
+    <string name="mobile_addInfo_err">The additional print information format error</string>
+    <string name="mobile_sdQuery">Manual Query</string>
+    <string name="mobile_sdQuery2">Please Manual Query</string>
+    <string name="mobile_autoQuery">Automatic Querying</string>
+
+    <string name="mobile_authNo">authNo</string>
+    <string name="mobile_memo">Merchants can scan the code to get the authorization code for completion, thaw and revocation operations.</string>
+    <string name="mobile_title_activity_base">baseActivity</string>
+    <string name="no_qr_code">no QrCode in</string>
+</resources>

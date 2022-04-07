@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="mobile_app_name">移动支付</string>
+    <string name="mobile_hello_world">Hello world!</string>
+    <string name="mobile_menu_settings">Settings</string>
+    <string name="mobile_title">移动支付</string>
+    <string name="mobile_title6">商户设置</string>
+    <string name="mobile_title3">通讯参数设置</string>
+    <string name="mobile_title9">参数设置</string>
+    <string name="mobile_point">.</string>
+    <string name="mobile_scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="mobile_title12">安全码设置</string>
+    <string name="mobile_chgLag">语言切换</string>
+    <string name="mobile_bind">绑定</string>
+    <string name="mobile_oldCode">请输入原安全码</string>
+    <string name="mobile_safeCode">请输入安全码</string>
+    <string name="mobile_newcode">请输入新安全码</string>
+    <string name="mobile_codesub">新安全码确认</string>
+    <string name="mobile_codeErr">安全码错误</string>
+    <string name="mobile_chgyy">语言切换中……</string>
+    <string name="mobile_filter_vcode">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+    <string name="mobile_alipay1">支付宝1.0</string>
+    <string name="mobile_wechat">微信</string>
+    <string name="mobile_ips">环迅银行卡</string>
+    <string name="mobile_dianping">大众点评</string>
+    <string name="mobile_alipay2">支付宝2.0</string>
+    <string name="mobile_cash">现金</string>
+    <string name="mobile_bankcard">银行卡</string>
+    <string name="mobile_yfcard">预付卡</string>
+
+    <string name="mobile_midEdit">请输入商户号</string>
+    <string name="mobile_tidEdit">请输入终端号</string>
+    <string name="mobile_payMode">请选择支付模式</string>
+    <string name="mobile_transet">交易管理</string>
+    <string name="mobile_systemset">系统设置</string>
+    <string name="mobile_clear">清除</string>
+    <string name="mobile_money">收钱</string>
+    <string name="mobile_sale">消费</string>
+    <string name="mobile_refund">退货</string>
+    <string name="mobile_cancel">撤销</string>
+    <string name="mobile_update">检查更新</string>
+    <string name="mobile_bindsucc">绑定成功</string>
+    <!-- print -->
+    <string name="mobile_printStr1">移动支付打印单</string>
+    <string name="mobile_printStr2">商户存根</string>
+    <string name="mobile_printStr3">用户存根</string>
+    <string name="mobile_printStr4">商户编号</string>
+    <string name="mobile_printStr5">终端编号</string>
+    <string name="mobile_printStr6">操作员号</string>
+    <string name="mobile_printStr7">交易类型</string>
+    <string name="mobile_printStr8">撤销</string>
+    <string name="mobile_printStr9">原商户流水号</string>
+    <string name="mobile_printStr10">交易时间</string>
+    <string name="mobile_printStr11">支付方式</string>
+    <string name="mobile_printStr12">交易金额</string>
+    <string name="mobile_printStr13">备注</string>
+    <string name="mobile_printStr14">用户签字</string>
+    <string name="mobile_printStr15">商户名称</string>
+    <string name="mobile_printStr16">支付账号</string>
+    <string name="mobile_printStr17">消费</string>
+    <string name="mobile_printStr18">退货</string>
+    <string name="mobile_printStr19">商户流水号</string>
+    <string name="mobile_printStr20">订单号</string>
+    <string name="mobile_printStr21">查询交易</string>
+    <string name="mobile_printStr22">预授权</string>
+    <string name="mobile_printStr23">预授权完成</string>
+    <string name="mobile_printStr24">预授权撤销</string>
+    <string name="mobile_printStr25">预授权解冻</string>
+    <string name="mobile_printStr26">渠道流水号</string>
+    <string name="mobile_printBtn1">退出打印</string>
+    <string name="mobile_printBtn2">打印第二联</string>
+    <string name="mobile_printBtn3">打印失败</string>
+    <string name="mobile_quxiao">取消</string>
+    <string name="mobile_goon">继续</string>
+    <string name="mobile_ok">确定</string>
+    <string name="mobile_systitle">系统提示</string>
+    <string name="mobile_cannelTrans">确定取消该笔交易吗？</string>
+    <!-- BindSafeCodeActivity -->
+    <string name="mobile_BSCAmessage1">请输入原安全码</string>
+    <string name="mobile_BSCAmessage2">原安全码长度错误</string>
+    <string name="mobile_BSCAmessage3">请输入新安全码</string>
+    <string name="mobile_BSCAmessage4">新安全码长度错误</string>
+    <string name="mobile_BSCAmessage5">新安全码输入不一致</string>
+    <string name="mobile_BSCAmessage6">原安全码输入错误</string>
+    <!-- CancelActivity -->
+    <string name="mobile_CAmessage1">正在交易,请稍等……</string>
+    <string name="mobile_CAmessage2">设备未绑定商户</string>
+    <string name="mobile_CAmessage3">网络异常</string>
+    <!-- CaptureActivity -->
+    <string name="mobile_Capture1">选择二维码图片</string>
+    <string name="mobile_Capture2">图片格式有误</string>
+    <!-- QueryInfActivity -->
+    <string name="mobile_QImessage1">正在查询,请稍等……</string>
+    <!-- RedunfInfActivity -->
+    <string name="mobile_RImessage1">正在退货，是否继续等待？</string>
+    <!-- SaleInfActivity -->
+    <string name="mobile_SImessage1">条码错误</string>
+    <string name="mobile_SImessage2">打印驱动加载失败</string>
+    <string name="mobile_SImessage3">用户取消</string>
+    <string name="mobile_SImessage4">是否继续等待客人输入支付密码？</string>
+    <!-- MainActivity -->
+    <string name="mobile_MAmessage1">该业务未开通</string>
+
+
+    <!-- NEW -->
+    <string name="mobile_zfbQRCode">支付宝二维码</string>
+    <string name="mobile_wxQRCode">微信二维码</string>
+    <string name="mobile_queryPay">查询支付结果</string>
+    <string name="mobile_merchantTxnNo_empty">商户流水号为空</string>
+    <string name="mobile_merchantTxnNo_length">商户流水号长度错误</string>
+    <string name="mobile_refundTxnNo_empty">退款流水号为空</string>
+    <string name="mobile_refundTxnNo_length">退款流水号长度错误</string>
+    <string name="mobile_txnAmt_empty">交易金额为空</string>
+    <string name="mobile_txnAmt_formate">交易金额格式错误</string>
+    <string name="mobile_currencyCode_empty">货币代码为空</string>
+    <string name="mobile_currencyCode_length">货币代码长度错误</string>
+    <string name="mobile_authNo_empty">授权码为空</string>
+    <string name="mobile_authNo_length">授权码长度错误</string>
+    <string name="mobile_merchantId_empty">商户号为空</string>
+    <string name="mobile_merchantId_length">商户号长度错误</string>
+    <string name="mobile_terminalId_empty">终端号为空</string>
+    <string name="mobile_terminalId_length">终端号长度错误</string>
+    <string name="mobile_txnReqTime_empty">请求时间为空</string>
+    <string name="mobile_txnReqTime_formate">请求时间格式错误</string>
+    <string name="mobile_channelID_empty">支付渠道为空</string>
+    <string name="mobile_channelID_err">支付渠道错误</string>
+    <string name="mobile_opType_empty">支付渠道为空</string>
+    <string name="mobile_opType_err">支付渠道错误</string>
+    <string name="mobile_queryType_empty">查询类型为空</string>
+    <string name="mobile_queryType_err">查询类型错误</string>
+    <string name="mobile_permitDisctAmt_formate">允许参与折扣金额格式错误</string>
+    <string name="mobile_cashierID_length">收银员长度错误</string>
+    <string name="mobile_orgMerchantID_length">原消费交易商户号长度错误</string>
+    <string name="mobile_refundReason_length">退货原因长度错误</string>
+    <string name="mobile_txnLongDesc_length">交易明细信息长度错误</string>
+    <string name="mobile_txnShortDesc_length">交易简述长度错误</string>
+    <string name="mobile_tranSucc">交易成功</string>
+    <string name="mobile_ptSystrace">商户可扫码退款或查询交易</string>
+    <string name="mobile_orgPlatformTxnNo_empty">原平台交易流水号为空</string>
+    <string name="mobile_orgPlatformTxnNo_length">原平台交易流水号长度错误</string>
+    <string name="mobile_orgTxnNo_empty">流水号为空</string>
+    <string name="mobile_orgTxnNo_length">原交易商户流水号长度错误</string>
+    <string name="mobile_sdQuery">手动查询</string>
+    <string name="mobile_sdQuery2">请手动查询</string>
+    <string name="mobile_autoQuery">自动查询中</string>
+
+    <string name="mobile_authNo">授权号</string>
+    <string name="mobile_memo">商户可以扫码获取商户流水号进行完成，解冻和撤销操作</string>
+    <string name="mobile_title_activity_base">BaseActivity</string>
+    <string name="mobile_addInfo_length">add_info_length</string>
+    <string name="mobile_addInfo_err">mobile_addinfo_err</string>
+    <string name="no_qr_code">传入条码为空</string>
+</resources>
