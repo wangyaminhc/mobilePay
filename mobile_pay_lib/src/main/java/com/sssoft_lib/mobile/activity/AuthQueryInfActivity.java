@@ -324,6 +324,8 @@ public class AuthQueryInfActivity extends BaseActivity {
 				stringBuilder.append(formatCutpaper);
 			} else {
 				stringBuilder.append(formatLCStart).append("           ").append(formatLCEnd).append(formatEnter);
+				stringBuilder.append(formatLCStart).append("           ").append(formatLCEnd).append(formatEnter);
+				stringBuilder.append(formatLCStart).append("           ").append(formatLCEnd).append(formatEnter);
 			}
 		}
 

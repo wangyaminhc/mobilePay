@@ -638,6 +638,8 @@ public class AuthInfActivity extends BaseActivity {
 				stringBuilder.append(formatCutpaper);
 			} else {
 				stringBuilder.append(formatNLStart).append(mContext.getString(R.string.mobile_memo)).append(formatNLEnd).append(formatEnter);
+				stringBuilder.append(formatLCStart).append("           ").append(formatLCEnd).append(formatEnter);
+				stringBuilder.append(formatLCStart).append("           ").append(formatLCEnd).append(formatEnter);
 				stringBuilder.append(formatEnter);
 			}
 		}

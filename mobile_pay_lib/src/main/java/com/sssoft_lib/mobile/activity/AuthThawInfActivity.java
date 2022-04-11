@@ -367,6 +367,8 @@ public class AuthThawInfActivity extends BaseActivity {
 				stringBuilder.append(formatEnter);
 				stringBuilder.append(formatCutpaper);
 			} else {
+				stringBuilder.append(formatLCStart).append("           ").append(formatLCEnd).append(formatEnter);
+				stringBuilder.append(formatLCStart).append("           ").append(formatLCEnd).append(formatEnter);
 				stringBuilder.append(formatEnter);
 			}
 		}

@@ -605,6 +605,8 @@ public class SaleInfActivity extends BaseActivity{
 				stringBuilder.append(formatSCStart).append("----------------------------------------------").append(formatSCEnd).append(formatEnter);
 				stringBuilder.append(formatCutpaper);
 			} else {
+				stringBuilder.append(formatLCStart).append("           ").append(formatLCEnd).append(formatEnter);
+				stringBuilder.append(formatLCStart).append("           ").append(formatLCEnd).append(formatEnter);
 				stringBuilder.append(formatEnter);
 			}
 		}
